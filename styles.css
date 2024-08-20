@@ -50,26 +50,3 @@ footer {
     font-size: 0.9em;
     color: #777;
 }
-
-.home, .cv, .links, .contact {
-    margin-top: 50px;
-}
-
-.profile-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%; /* Circular photo */
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-
-h1 {
-    font-size: 2em;
-    color: #333;
-}
-
-footer {
-    margin-top: 50px;
-    font-size: 0.9em;
-    color: #777;
-}
