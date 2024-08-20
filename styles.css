@@ -33,11 +33,11 @@ header nav ul li a {
 }
 
 .profile-img {
+    object-position: 50% 20%; /* Adjust the position to show more of the head */
     width: 150px;
     height: 150px;
     border-radius: 50%; /* Circular photo */
     object-fit: cover;
-    object-position: 50% 20%; /* Adjust the position to show more of the head */
     margin-bottom: 20px;
 }
 
