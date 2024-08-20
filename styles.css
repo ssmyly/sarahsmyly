@@ -34,8 +34,8 @@ header nav ul li a {
 
 .profile-img {
     object-position: 50% 20%; /* Adjust the position to show more of the head */
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%; /* Circular photo */
     object-fit: cover;
     margin-bottom: 20px;
