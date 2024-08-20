@@ -3,26 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Information - Sarah Smyly</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Contact - Sarah Smyly</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Contact Information</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="contact.html">Contact Information</a></li>
-                <li><a href="links.html">Relevant Links</a></li>
-            </ul>
-        </nav>
+        <h1>Contact Me</h1>
     </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="links.html">Research & Links</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
     <main>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Details about how to contact you go here.</p>
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="https://formspree.io/f/{your-form-id}" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+                
+                <input type="submit" value="Send">
+            </form>
+            <p>Alternatively, you can email me directly at <a href="mailto:sarah@example.com">sarah@example.com</a>.</p>
         </section>
     </main>
+    
+    <footer>
+        <p>&copy; 2024 Sarah Smyly. All rights reserved.</p>
+    </footer>
 </body>
 </html>
