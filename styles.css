@@ -1,17 +1,6 @@
 body {
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
     padding: 0;
 }
 
