@@ -46,7 +46,7 @@ header nav ul li a:hover {
 .profile-img {
     width: 150px; /* Fixed width */
     height: 200px; /* Fixed height for rectangle */
-    border-radius: 0px; /* Rectangle photo */
+    border-radius: 0; /* Rectangle photo */
     object-fit: cover;
     object-position: 50% 10%; /* Adjust the position to show more of the head */
 }
