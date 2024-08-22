@@ -40,29 +40,29 @@ header nav ul li a:hover {
 }
 
 .profile-photo {
-    margin-right: 20px;
+    margin-right: 40px; /* Increase margin to make text farther away from the picture */
 }
 
 .profile-img {
-    width: 150px; /* Fixed width */
-    height: 200px; /* Fixed height for rectangle */
+    width: 200px; /* Increased width */
+    height: 250px; /* Increased height for rectangle */
     border-radius: 0; /* Rectangle photo */
     object-fit: cover;
     object-position: 50% 10%; /* Adjust the position to show more of the head */
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.5em; /* Enlarge the main heading */
     color: #333;
 }
 
 .about-me h2 {
-    font-size: 1.5em; /* Slightly smaller font for the "About Me" title */
+    font-size: 2em; /* Enlarge the "About Me" title */
     color: #333;
 }
 
 .about-me p {
-    font-size: 1em; /* Regular font size for the paragraph */
+    font-size: 1.2em; /* Enlarge the paragraph text */
     color: #555;
 }
 
