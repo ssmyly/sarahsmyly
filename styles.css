@@ -182,3 +182,24 @@ footer .newsletter-form button:hover {
         margin-right: 20px;
     }
 }
+
+/* Social Media Icons */
+.social-links {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #8b0000;
+    font-size: 1.5em; /* Size of the icons */
+}
+
+.social-links a:hover {
+    color: #5a0000;
+}
