@@ -36,7 +36,7 @@ header nav ul li a:hover {
 
 .profile-about {
     display: flex;
-    align-items: stretch; /* Stretch items to the same height */
+    align-items: center; /* Stretch items to the same height */
 }
 
 .profile-photo {
