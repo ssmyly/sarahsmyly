@@ -1,7 +1,7 @@
 body {
     background-color: #f8f9fa; /* Lighter background color */
     color: #333;
-    font-family: Nunito, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 header nav ul {
@@ -36,7 +36,7 @@ header nav ul li a:hover {
 
 .profile-about {
     display: flex;
-    align-items: center; /* Stretch items to the same height */
+    align-items: center; /* Center align items vertically */
 }
 
 .profile-photo {
@@ -44,8 +44,8 @@ header nav ul li a:hover {
 }
 
 .profile-img {
-    width: auto; /* Maintain aspect ratio */
-    height: 100%; /* Stretch to match the height of the text */
+    width: 200px; /* Increased width */
+    height: 250px; /* Increased height for rectangle */
     border-radius: 0; /* Straight edges */
     object-fit: cover;
     object-position: 50% 10%; /* Adjust the position to show more of the head */
