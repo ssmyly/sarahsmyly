@@ -36,7 +36,7 @@ header nav ul li a:hover {
 
 .profile-about {
     display: flex;
-    align-items: center; /* Center align items vertically */
+    align-items: flex-start;
 }
 
 .profile-photo {
@@ -46,7 +46,7 @@ header nav ul li a:hover {
 .profile-img {
     width: 200px; /* Increased width */
     height: 250px; /* Increased height for rectangle */
-    border-radius: 0; /* Straight edges */
+    border-radius: 0; /* Rectangle photo */
     object-fit: cover;
     object-position: 50% 10%; /* Adjust the position to show more of the head */
 }
