@@ -88,10 +88,13 @@ footer p {
         margin: 0 0 20px 0;
     }
 
-    .profile-img {
-        width: 180px;
-        height: 220px;
-    }
+/* Image Styling */
+.profile-img {
+    max-width: 100%; /* Ensures the image never exceeds the width of its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
 
     header .container {
         flex-direction: column;
