@@ -65,6 +65,16 @@ header nav ul li a:hover {
     padding-top: 100px; /* Additional padding to create space between the header and the main content */
 }
 
+/* Profile Photo */
+.profile-img {
+    width: 180px; /* An appropriate size based on common practices */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the image circular, often used for profile pictures */
+    object-fit: cover; /* Ensures the image covers the area properly */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is displayed as a block element */
+}
+
 /* Footer */
 footer {
     background-color: #f1f1f1;
@@ -88,13 +98,10 @@ footer p {
         margin: 0 0 20px 0;
     }
 
-/* Image Styling */
-.profile-img {
-    max-width: 100%; /* Ensures the image never exceeds the width of its container */
-    height: auto; /* Maintains the aspect ratio of the image */
-    display: block;
-    margin: 0 auto; /* Centers the image */
-}
+    .profile-img {
+        width: 150px; /* Slightly smaller for mobile devices */
+        height: auto; /* Maintain aspect ratio */
+    }
 
     header .container {
         flex-direction: column;
@@ -132,6 +139,6 @@ footer p {
     font-size: 1.5em; /* Size of the icons */
 }
 
-.social-links a:hover {
+social-links a:hover {
     color: #5a0000;
 }
