@@ -98,7 +98,6 @@ header nav ul li a:hover {
 /* Footer */
 footer {
     background-color: #f1f1f1;
-    font-size: 1em;
     padding: 10px 0;
     margin-top: 20px;
     text-align: center;
@@ -106,6 +105,7 @@ footer {
 
 footer p {
     color: #555;
+    font-size: 1em;
     margin: 0;
 }
 
