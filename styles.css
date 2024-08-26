@@ -10,7 +10,7 @@ body {
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
-    padding-top: 20px; /* Increased padding to prevent text from being too close to the header */
+    padding-top: 80px;
 }
 
 /* Header */
@@ -62,17 +62,37 @@ header nav ul li a:hover {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    padding-top: 100px; /* Additional padding to create space between the header and the main content */
+    padding-top: 100px;
 }
 
-/* Profile Photo */
+.profile-about {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
 .profile-img {
-    width: 180px; /* An appropriate size based on common practices */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Optional: makes the image circular, often used for profile pictures */
-    object-fit: cover; /* Ensures the image covers the area properly */
-    margin: 0 auto; /* Center the image horizontally */
-    display: block; /* Ensure the image is displayed as a block element */
+    width: 200px;
+    height: auto;
+    border-radius: 8px; /* Rounded rectangle */
+}
+
+.about-me {
+    max-width: 600px;
+}
+
+.about-me h2 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.about-me p {
+    margin-bottom: 10px;
 }
 
 /* Footer */
@@ -92,6 +112,7 @@ footer p {
     .profile-about {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .profile-photo {
@@ -99,8 +120,7 @@ footer p {
     }
 
     .profile-img {
-        width: 150px; /* Slightly smaller for mobile devices */
-        height: auto; /* Maintain aspect ratio */
+        width: 180px;
     }
 
     header .container {
@@ -136,9 +156,9 @@ footer p {
 .social-links a {
     text-decoration: none;
     color: #8b0000;
-    font-size: 1.5em; /* Size of the icons */
+    font-size: 1.5em;
 }
 
-social-links a:hover {
+.social-links a:hover {
     color: #5a0000;
 }
