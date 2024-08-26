@@ -122,7 +122,9 @@ footer p {
 
     .profile-img {
         width: 180px;
-        height: 225px;
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 50% / 25%; /* Create a stretched-out oval shape */
+        object-fit: cover; /* Ensure the image maintains the correct aspect ratio within the oval */
     }
 
     header .container {
