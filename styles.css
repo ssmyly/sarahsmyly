@@ -10,7 +10,7 @@ body {
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
-    padding-top: 80px; /* Increased padding to prevent text from being too close to the header */
+    padding-top: 50px; /* Increased padding to prevent text from being too close to the header */
 }
 
 /* Header */
