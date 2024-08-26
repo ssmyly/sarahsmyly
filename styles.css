@@ -147,12 +147,13 @@ footer p {
 /* Social Media Icons */
 .social-links {
     list-style-type: none;
-    padding: 10px 0;
+    padding: 5px 0; /* Reduced padding to minimize space around icons */
+    margin: 0; /* Remove extra margin around the list */
 }
 
 .social-links li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 8px; /* Reduced margin between icons */
 }
 
 .social-links a {
