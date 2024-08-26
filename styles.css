@@ -79,7 +79,7 @@ header nav ul li a:hover {
 .profile-img {
     width: 220px;
     height: 320px; /* Larger size and stretched vertically */
-    border-radius: 100%; /* Oval shape */
+    border-radius: 0%; /* Oval shape */
     object-fit: cover;}
 
 .about-me {
