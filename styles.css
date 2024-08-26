@@ -10,7 +10,6 @@ body {
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
-    padding-top: 80px;
 }
 
 /* Header */
@@ -30,7 +29,6 @@ header .container {
     align-items: center;
     max-width: 900px;
     margin: auto;
-    padding: 0 20px;
 }
 
 header h1 {
@@ -61,8 +59,6 @@ header nav ul li a:hover {
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
-    padding-top: 100px;
 }
 
 .profile-about {
