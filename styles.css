@@ -30,6 +30,7 @@ header .container {
     align-items: center;
     max-width: 900px;
     margin: auto;
+    padding: 0 20px;
 }
 
 header h1 {
@@ -60,7 +61,9 @@ header nav ul li a:hover {
 .container {
     max-width: 900px;
     margin: 0 auto;
+    padding: 20px;
     padding-top: 100px;
+
 }
 
 .profile-about {
@@ -102,6 +105,12 @@ footer {
 
 footer p {
     color: #555;
+}
+.container-2 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 50px;
 }
 
 /* Responsive Design */
