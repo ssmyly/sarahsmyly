@@ -72,13 +72,14 @@ header nav ul li a:hover {
 
 .profile-photo {
     flex-shrink: 0;
-    margin-right: 20px;
+    margin-right: 20px; /* Space between image and text */
 }
 
 .profile-img {
     width: 200px;
-    height: auto;
-    border-radius: 8px; /* Rounded rectangle */
+    height: 250px;
+    border-radius: 50%; /* Oval shape */
+    object-fit: cover; /* Ensure the image maintains the correct aspect ratio within the oval */
 }
 
 .about-me {
@@ -121,6 +122,7 @@ footer p {
 
     .profile-img {
         width: 180px;
+        height: 225px;
     }
 
     header .container {
